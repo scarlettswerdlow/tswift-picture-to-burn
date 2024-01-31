@@ -1,4 +1,3 @@
-from xml.etree.ElementTree import XML
 import yaml
 import string
 import os
@@ -173,35 +172,3 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     main(config_fp = args.config, lyrics_fp = args.lyrics, verbose = args.verbose)
-
-"""
-def main(config_fp, lyrics_fp, verbose = True):
-    config = read_yaml(config_fp)
-    base_url = config['OPENAI']['BASE_URL']
-    access_token = config['OPENAI']['OPEN_AI_KEY']
-    headers = make_headers(access_token)
-    run = time.strftime("%Y%m%d%H%M", time.localtime())
-    for song in SONGS:
-        if verbose: print(f"SONG: {song}{NEW_LINE}")
-        lyrics = get_lyrics(lyrics_fp, song)
-        if lyrics is None:
-            if verbose: print(f"Lyrics not found{NEW_LINE}")
-            continue
-        song_for_path = make_path(song)
-        for style in STYLES:
-            if verbose: print(f"STYLE: {style}{NEW_LINE}")
-            style_for_path = clean_string_for_path(style)
-            prompt = make_prompt(style, lyrics)
-            prompt_fp = write_text(prompt, song_for_path, style_for_path, "prompt", run)
-            try:
-                image_response = request_image(base_url, headers, prompt)
-            except Exception as error:
-                if verbose: print(f"An error occurred: {error}{NEW_LINE}")
-                continue
-            revised_prompt = get_revised_prompt(image_response)
-            revised_prompt_fp = write_text(revised_prompt, song_for_path, style, "revised-prompt", run)
-            image_fp = write_image(image_response, song_for_path, style, run)
-            if verbose: print(f"PROMPT: {prompt_fp}. REVISED PROMPT: {revised_prompt_fp}. IMAGE: {image_fp}.")
-
-main("src/config-mine.yaml", "/Users/scarlettswerdlow/tswift-golden/data/lyrics.csv")
-"""
