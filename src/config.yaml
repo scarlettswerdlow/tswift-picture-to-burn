@@ -1,0 +1,8 @@
+---
+SONGS:
+  - Picture to Burn
+STYLES:
+  - cyberpunk surrealism
+OPENAI:
+  OPEN_AI_KEY: 
+  BASE_URL: https://api.openai.com/v1/
