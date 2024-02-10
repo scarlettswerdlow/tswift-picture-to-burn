@@ -1,0 +1,4 @@
+remote_theme: pages-themes/minimal@v0.2.0
+title: Picture to Burn
+description: Visualizing Taylor Swift lyrics with dall-e-3
+show_downloads: true
