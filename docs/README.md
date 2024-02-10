@@ -59,17 +59,18 @@ While the results rarely looked like they came from the referenced artist's port
 
 ## Text
 
-I struggled to stop DALL-E 3 from including text -- which was commonly non-sensical combinations of things that looked like letters -- in the images. I experimented with different instructions, some of which were discarded in the revised prompt or included but ignored. This appears to be a common issue and frustration. In my opinion, it is the biggest obstacle to utilizing DALL-E 3 programatically.
+The astute observer will have noticed that in most of my prompts I beg DALL-E 3 to exclude text. Sadly, I was unable to stop the system from adding text to images. All of the images below, for example, were generated from a prompt that included an instruction to **exclude** text. The system's unwanted contributions ranged from non-sensical combinations of things that look like letters to close if misspelled approximations of words. In my opinion, this is the biggest obstacle to using DALL-E 3 to programatically generate usable images.
 
-Examples
+![New Romantics - Text](/assets/new-romantics-text.jpg){: width="100%" }
+![Now That We Don't Talk - Text](/assets/now-that-we-dont-talk-text.jpg){: width="100%" }
 
 ## Photographs
 
-I also found DALL-E 3 needed particular prompting to reliably generate photographic images. Unlike with text, I found the instruction ```I NEED it to be a photograph.``` to be consistently effective.
+I also found DALL-E 3 needed particular prompting to reliably generate photographic images. Unlike with text, I found the instruction "I NEED it to be a photograph" to be consistently effective.
 
 ## Importance of a Pipeline
 
-Above all else, I learned image generation is highly iterative. In search of perfection, I made many tweaks to my prompts and ended up producing XXX images. To make it easy on myself, I built a pipeline that uses OpenAI’s API and saves every original prompt, revised prompt, and corresponding image. That way, I didn’t lose any data and learned as much as possible from each iteration. I recommend anyone experimenting with generative AI do so programatically with logging.
+Above all else, I learned image generation is highly iterative. In search of perfection, I made many tweaks to my prompts and ended up producing 279 images for 25 songs. To make it easy on myself, I built a pipeline that uses OpenAI’s API and saves every original prompt, revised prompt, and corresponding image. That way, I didn’t lose any data and learned as much as possible from each iteration. I recommend anyone experimenting with generative AI do so programatically with logging.
 
 ---
 
