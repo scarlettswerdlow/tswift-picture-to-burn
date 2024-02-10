@@ -1,4 +1,4 @@
 remote_theme: pages-themes/minimal@v0.2.0
 title: Picture to Burn
-description: Visualizing Taylor Swift lyrics with dall-e-3
+description: In this morsel of Taylor Swift data science, I use OpenAI's latest text-to-image AI system to visualize the lyrics of Taylor Swift songs in different artistic styles.
 show_downloads: true

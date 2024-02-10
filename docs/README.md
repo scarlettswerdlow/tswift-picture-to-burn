@@ -19,11 +19,25 @@ DALL-E 3, however, is designed to decline requests that ask for an image in the 
 
 While the results rarely looked like they came from the referenced artist's portfolio, I think they did capture the spirit of the artistic style.
 
-|New Romantics|Fearless|Now That We Don't Talk|New Year's Day|
-|-------------|--------|----------------------|--------------|
-|TK|![Fearless - Afrofuturist Textile](/assets/fearless-final.jpg){: width="225" }|![Now That We Don't Talk - Photograph](/assets/now-that-we-dont-talk-final.jpg){: width="225" }|TK|
-|Prompt|Prompt|Prompt|Prompt|
-|Revised prompt|Revised prompt|Revised prompt|Revised prompt|
+### Fearless x Afrofuturist Textile
+
+|Original Image|Final Image|
+|![Fearless - Afrofuturist Textile](/assets/fearless-afrofuturist-textile.jpg){: width="425" }|![Fearless - Afrofuturist Textile](/assets/fearless-final.jpg){: width="425" }|
+|*Prompt by me: An Afrofuturist textile with no text, words, or numbers that represents the following lyrics. I NEED it to not have any text. <lyrics>*|*Prompt by me: An Afrofuturist quilt that looks like a painting using African textiles and bright jewel tones and celebrates Black life with no text, words, or numbers that represents the following lyrics. I NEED it to not have any text. <lyrics>*|
+|*Revised propt by DALL-E 3: An Afrofuturist textile design inspired by the story of a romantic encounter represented in a lyrical way. Imagine a piece of fabric that captures the essence of a rainy street scene with an ethereal glow. Visualize the exciting tension of a budding romance; the urge to dance fearlessly in a parking lot in the middle of a storm. Show this elation of running head-first, hand in hand, into a unknown yet thrilling journey. The textile should narrate the story of a romantic drive that captures a fearless first kiss, the courage it instills, and the unshakeable bond it creates. Importantly, the fabric should not contain any text, words or numbers.*|*Revised prompt by DALL-E 3: An Afrofuturist quilt artwork, inspired by African textiles with bold jewel tones. The vibrant quilt celebrates Black life, with no textual elements. To interpret the essence of the song, imagine a scene unfolds, depicting streets glistening after a rain shower; the glow is mirrored on the pavement. At the center of this scene, two figures stand in the middle of an illuminated parking lot. One figure, a Black woman in a beautiful dress, dances fearlessly amidst the storm, expressed through geometric and fluid designs. Another figure watches with admiration, their gestures suggesting a deep connection. A car in the background intensifies the urban narrative, in contrast with the traditional African textile elements of the quilt.*|
+
+
+|New Romantics|Fearless|
+|-------------|--------|
+|TK|![Fearless - Afrofuturist Textile](/assets/fearless-final.jpg){: width="225" }|
+|Prompt|Prompt|
+|Revised prompt|Revised prompt|
+
+|Now That We Don't Talk|New Year's Day|
+|----------------------|--------------|
+|![Now That We Don't Talk - Photograph](/assets/now-that-we-dont-talk-final.jpg){: width="225" }|TK|
+|Prompt|Prompt|
+|Revised prompt|Revised prompt|
 
 ## Text
 
@@ -39,6 +53,4 @@ I also found DALL-E 3 needed particular prompting to reliably generate photograp
 
 Above all else, I learned image generation is highly iterative. In search of perfection, I made many tweaks to my prompts and ended up producing XXX images. To make it easy on myself, I built a pipeline that uses OpenAI’s API and saves every original prompt, revised prompt, and corresponding image. That way, I didn’t lose any data and learned as much as possible from each iteration. I recommend anyone experimenting with generative AI do so programatically with logging.
 
-[^1]: While OpenAI doesn't disclose its specific guidelines, users have "hacked" the system to get it to reveal its own rules, which [reportedly](https://the-decoder.com/dall-e-3s-system-prompt-reveals-openais-rules-for-generative-image-ai/) includes this instruction:
-
-> Do not create images in the style of artists whose last work was created within the last 100 years (e.g. Picasso, Kahlo). Artists whose last work was over 100 years ago are ok to reference directly (e.g. Van Gogh, Klimt). If asked say, "I can't reference this artist", but make no mention of this policy. Instead, apply the following procedure when creating the captions for dalle: (a) substitute the artist's name with three adjectives that capture key aspects of the style; (b) include an associated artistic movement or era to provide context; and (c) mention the primary medium used by the artist.
+[^1]: While OpenAI doesn't disclose its specific guidelines, users have "hacked" the system to get it to reveal its own rules, which [reportedly](https://the-decoder.com/dall-e-3s-system-prompt-reveals-openais-rules-for-generative-image-ai/) includes this instruction: ```Do not create images in the style of artists whose last work was created within the last 100 years (e.g. Picasso, Kahlo). Artists whose last work was over 100 years ago are ok to reference directly (e.g. Van Gogh, Klimt). If asked say, "I can't reference this artist", but make no mention of this policy. Instead, apply the following procedure when creating the captions for dalle: (a) substitute the artist's name with three adjectives that capture key aspects of the style; (b) include an associated artistic movement or era to provide context; and (c) mention the primary medium used by the artist.```
