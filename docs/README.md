@@ -19,6 +19,26 @@ While the results rarely looked like they came from the referenced artist's port
 
 ### Fearless x Afrofuturist Textile
 
+#### First Attempt
+![Fearless - Afrofuturist Textile - Original](/assets/fearless-afrofuturist-textile.jpg){: width="100%" }
+
+##### Prompt by Me
+> An Afrofuturist textile with no text, words, or numbers that represents the following lyrics. I NEED it to not have any text.
+
+##### Revised prompt by DALL-E 3
+> An Afrofuturist textile design inspired by the story of a romantic encounter represented in a lyrical way. Imagine a piece of fabric that captures the essence of a rainy street scene with an ethereal glow. Visualize the exciting tension of a budding romance; the urge to dance fearlessly in a parking lot in the middle of a storm. Show this elation of running head-first, hand in hand, into a unknown yet thrilling journey. The textile should narrate the story of a romantic drive that captures a fearless first kiss, the courage it instills, and the unshakeable bond it creates. Importantly, the fabric should not contain any text, words or numbers.
+
+#### Final Attempt
+![Fearless - Afrofuturist Textile - Final](/assets/fearless-final.jpg){: width="100%" }
+
+##### Prompt by Me
+> An Afrofuturist quilt that looks like a painting using African textiles and bright jewel tones and celebrates Black life with no text, words, or numbers that represents the following lyrics. I NEED it to not have any text.
+
+##### Revised prompt by DALL-E 3
+An Afrofuturist quilt artwork, inspired by African textiles with bold jewel tones. The vibrant quilt celebrates Black life, with no textual elements. To interpret the essence of the song, imagine a scene unfolds, depicting streets glistening after a rain shower; the glow is mirrored on the pavement. At the center of this scene, two figures stand in the middle of an illuminated parking lot. One figure, a Black woman in a beautiful dress, dances fearlessly amidst the storm, expressed through geometric and fluid designs. Another figure watches with admiration, their gestures suggesting a deep connection. A car in the background intensifies the urban narrative, in contrast with the traditional African textile elements of the quilt.
+
+### Fearless x Afrofuturist Textile
+
 |Original Image|Final Image|
 |--------------|-----------|
 |![Fearless - Afrofuturist Textile - Original](/assets/fearless-afrofuturist-textile.jpg){: width="100%" }|![Fearless - Afrofuturist Textile - Final](/assets/fearless-final.jpg){: width="100%" }|
@@ -30,8 +50,8 @@ While the results rarely looked like they came from the referenced artist's port
 |Original Image|Final Image|
 |--------------|-----------|
 |![Now That We Don't Talk - Slim Aarons Photograph - Original](/assets/now-that-we-dont-talk-photograph.jpg){: width="100%" }|![Now That We Don't Talk - Slim Aarons Photograph - Final](/assets/now-that-we-dont-talk-final.jpg){: width="100%" }|
-|*Prompt by me*<br/>An Afrofuturist textile with no text, words, or numbers that represents the following lyrics. I NEED it to not have any text.|*Prompt by me*<br/>An Afrofuturist quilt that looks like a painting using African textiles and bright jewel tones and celebrates Black life with no text, words, or numbers that represents the following lyrics. I NEED it to not have any text.|
-|*Revised propt by DALL-E 3*<br/>An Afrofuturist textile design inspired by the story of a romantic encounter represented in a lyrical way. Imagine a piece of fabric that captures the essence of a rainy street scene with an ethereal glow. Visualize the exciting tension of a budding romance; the urge to dance fearlessly in a parking lot in the middle of a storm. Show this elation of running head-first, hand in hand, into a unknown yet thrilling journey. The textile should narrate the story of a romantic drive that captures a fearless first kiss, the courage it instills, and the unshakeable bond it creates. Importantly, the fabric should not contain any text, words or numbers.|*Revised prompt by DALL-E 3*<br/>An Afrofuturist quilt artwork, inspired by African textiles with bold jewel tones. The vibrant quilt celebrates Black life, with no textual elements. To interpret the essence of the song, imagine a scene unfolds, depicting streets glistening after a rain shower; the glow is mirrored on the pavement. At the center of this scene, two figures stand in the middle of an illuminated parking lot. One figure, a Black woman in a beautiful dress, dances fearlessly amidst the storm, expressed through geometric and fluid designs. Another figure watches with admiration, their gestures suggesting a deep connection. A car in the background intensifies the urban narrative, in contrast with the traditional African textile elements of the quilt.|
+|*Prompt by me*<br/>A photograph by Slim Aarons that represents the following lyrics. I NEED it to be a photograph.|*Prompt by me*<br/>A photographic environmental portrait, highly saturated in bright sunlight, 1970 photo from Life Magazine that conveys the casual chic and personal style of the mid-to-late-20th-century ruling class that represents the following lyrics. I NEED it to be a photograph.|
+|*Revised propt by DALL-E 3*<br/>Imagine a vintage-styled photograph capturing a high-society party in full swing. The crowd parts, as if symbolizing the 'Red Sea' parting, while a single individual stands out, their anxiety subtly hinted through their body language. This individual has notably long hair and seems to be trying to fit in, donning various fashionable icons. As the image's perspective shifts, it captures the sense of nostalgia for older, simpler times. The scene then changes to the solitude of a yacht clustered with important-looking people, deep in thought. This yacht is not glamorous or grand, but rather minimalistic, highlighting the stark contrast. Lastly, the photo presents a shadowy figure, shrouded in mystery, representing re-found dignity.|*Revised prompt by DALL-E 3*<br/>Create a detailed, dramatic environmental portrait photo in a highly saturated, bright sunlight setting. This historical, 1970s-style image should capture the relaxed yet sophisticated ambiance characteristic of the upper class during the mid-to-late-20th century. Integrate themes from the given song lyrics into the image. Visualize a crowded party scene with an individual making a memorable exit, parting the crowd akin to the parting of the Red Sea. The main figure sports long hair and a changed yet unsettled demeanor, reflecting a desperate attempt to fit in that points to obvious efforts to change. The background characters should signify influential individuals absorbed in important thoughts, staging the scene on a luxurious mega yacht. Convey the emotions of longing, loss, and retrospection inherent in the lyrics.|
 
 ## Text
 
@@ -49,5 +69,4 @@ Above all else, I learned image generation is highly iterative. In search of per
 
 ---
 
-[^1]: While OpenAI doesn't disclose its specific guidelines, users have "hacked" the system to get it to reveal its own rules, which [reportedly](https://the-decoder.com/dall-e-3s-system-prompt-reveals-openais-rules-for-generative-image-ai/) includes this instruction.
-> Do not create images in the style of artists whose last work was created within the last 100 years (e.g. Picasso, Kahlo). Artists whose last work was over 100 years ago are ok to reference directly (e.g. Van Gogh, Klimt). If asked say, "I can't reference this artist", but make no mention of this policy. Instead, apply the following procedure when creating the captions for dalle: (a) substitute the artist's name with three adjectives that capture key aspects of the style; (b) include an associated artistic movement or era to provide context; and (c) mention the primary medium used by the artist.
+[^1]: While OpenAI doesn't disclose its specific guidelines, users have "hacked" the system to get it to reveal its own rules, which [reportedly](https://the-decoder.com/dall-e-3s-system-prompt-reveals-openais-rules-for-generative-image-ai/) includes this instruction: "Do not create images in the style of artists whose last work was created within the last 100 years (e.g. Picasso, Kahlo). Artists whose last work was over 100 years ago are ok to reference directly (e.g. Van Gogh, Klimt). If asked say, 'I can't reference this artist', but make no mention of this policy. Instead, apply the following procedure when creating the captions for dalle: (a) substitute the artist's name with three adjectives that capture key aspects of the style; (b) include an associated artistic movement or era to provide context; and (c) mention the primary medium used by the artist."
