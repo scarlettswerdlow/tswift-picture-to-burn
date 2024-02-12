@@ -105,8 +105,8 @@ One of the criticisms of AI is bias: it unthinkingly reflects the biases and unr
 
 Left to its own devices, DALL-E 3 is dead set on adding "text" to images -- ranging from nonsensical combinations of things that look like letters to mispelt words. This despite the fact I pleaded with the system to exclude text, words, letters, or numbers in my prompts. This tendency was especially problematic for artistic styles that traditionally include text, such as Pop Art. Of the 14 Pop Art images I generated, ten included text despite instructions to the contrary. Below is a sampling.
 
-![New Romantics - Text](/assets/new-romantics-text-1.jpeg){: width="50%" } ![New Romantics - Text](/assets/new-romantics-text-2.jpeg){: width="50%" }
-![New Romantics - Text](/assets/new-romantics-text-3.jpeg){: width="50%" } ![New Romantics - Text](/assets/new-romantics-text-4.jpeg){: width="50%" }
+![New Romantics - Text](/assets/new-romantics-text-1.jpeg){: width="45%" } ![New Romantics - Text](/assets/new-romantics-text-2.jpeg){: width="45%" }
+![New Romantics - Text](/assets/new-romantics-text-3.jpeg){: width="45%" } ![New Romantics - Text](/assets/new-romantics-text-4.jpeg){: width="45%" }
 
 Outside of Pop Art, I found the system was less likely to include text as my prompts became longer and more fully fleshed out. In other words, as I did a better job describing what I wanted (versus what I didn't want), it did a better job fulfilling my request. 
 
